@@ -31,7 +31,7 @@ public class StringTest02 {
 	}
 	
 	public static boolean equalsHello(String s) { //이 string이 hello랑 같은지
-		return s.equals("hello"); //10명중 2,3명은 
+		return s.equals("hello"); //10명중 2,3명은 이렇게 짤텐데이러면 s6이 null이면 nullPointerException이 나오기때문에
 		//return "Hello".equals(s) 하면 nullPointerException은 나오지 않는다.
 		
 	}
