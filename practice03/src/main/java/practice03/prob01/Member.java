@@ -1,4 +1,4 @@
-package prob01;
+package practice03.prob01;
 
 public class Member { // 멤버만 작성
 	private String id;
