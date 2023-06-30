@@ -36,6 +36,8 @@ public class StackTest {
 		//array으로 스택을 한다는데 스택이 뭐지도 모르고.
 		
 		
+		
+		
 
 	}
 
