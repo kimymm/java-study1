@@ -20,7 +20,7 @@ public class CalenderTest {
 		printDate(cal);
 		
 		cal.set(2023, 02, 29);
-		cal.add(Calendar.DATE,100); // 전의 날짜 100일을 더한것. 틴더앱으로 바뀌어버렸네
+		cal.add(Calendar.DATE,100); // 전의 날짜 100일을 더한것. 데이트앱으로 바뀌어버렸네
 		printDate(cal);
 		
 
