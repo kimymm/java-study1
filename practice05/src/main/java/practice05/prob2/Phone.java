@@ -2,7 +2,7 @@ package prob2;
 
 public class Phone {
 	public void execute( String function ) {
-		call();
+		call(); //excute 오버라이드하는 문제 
 	}
 	
 	private void call(){
