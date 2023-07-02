@@ -1,4 +1,4 @@
-package prob03;
+package practice03.prob03;
 
 public class CurrencyConverterTest { //직접 환전
 
