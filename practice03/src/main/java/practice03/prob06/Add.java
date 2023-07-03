@@ -1,4 +1,4 @@
-package prob06; //리펙토리문제
+package practice03.prob06; //리펙토리문제
 
 public class Add {
 	private int a;

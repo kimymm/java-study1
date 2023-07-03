@@ -1,4 +1,4 @@
-package prob06;
+package practice03.prob06;
 
 import java.util.Scanner;
 

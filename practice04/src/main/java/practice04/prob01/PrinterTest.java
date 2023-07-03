@@ -1,4 +1,4 @@
-package prob01;// 오버로드를 하라는 문제
+package practice04.prob01;// 오버로드를 하라는 문제
 
 public class PrinterTest {
 

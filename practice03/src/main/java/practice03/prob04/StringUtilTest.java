@@ -1,4 +1,4 @@
-package prob04;
+package practice03.prob04;
 
 public class StringUtilTest {
 

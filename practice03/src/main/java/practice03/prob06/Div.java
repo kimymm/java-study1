@@ -1,4 +1,4 @@
-package prob06;
+package practice03.prob06;
 
 public class Div {
 	private int a;
