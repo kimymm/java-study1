@@ -1,4 +1,4 @@
-package prob04;
+package practice04.prob04;
 //오버라이드 시작 point color랑 같은 문제
 public class Employee {
 	private String name;
