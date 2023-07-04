@@ -1,4 +1,4 @@
-package prob02;
+package practice04.prob02;
 
 import java.util.Scanner;
 
@@ -17,7 +17,7 @@ public class BookShop {
 		books[7] = new Book( 8,"귀천","천상병");
 		books[8] = new Book( 9,"태백산맥","조정래");
 		books[9] = new Book( 10,"풀하우스","원수연");
-		// num이 book 인덱스가 아님. 순서 맞게 조정할 수는 없다. 따로 생성
+
 		System.out.println("*****도서 정보 출력하기******");
 		displayBookInfo( books );
 		
@@ -27,16 +27,15 @@ public class BookShop {
 		scanner.close();
 		
 		// (1) 입력된 번호에 맞는 책을 찾아 대여 되었음(stateRent=true)을 체크 합니다.
-		
+		books[num-1].rent();
 		// (2) Book 객체의 정보를 출력
 		System.out.println("*****도서 정보 출력하기******");
 		displayBookInfo( books );
 	}
 
 	private static void displayBookInfo(Book[] books) {
-		// TODO Auto-generated method stub
 		for(int i = 0; i < books.length; i++) {
-			books[i].print //책제목: 트와이라이나이~
+			books[i].print(); //책제목: 트와이라이나이~
 		}
 	}
 }
