@@ -1,4 +1,4 @@
-package prob05;
+package practice04.prob05;
 
 public class Prob05 {
 
@@ -7,6 +7,6 @@ public class Prob05 {
 
 		base.service("낮");
 		base.service("밤");
-		base.service("오후");//순서가 왜 낮 night night 인지, 오버라이드를 해서 출력 
+		base.service("오후"); 
 	}
 }

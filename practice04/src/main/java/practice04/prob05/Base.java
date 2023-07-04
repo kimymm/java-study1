@@ -1,4 +1,4 @@
-package prob05; //오버라이드문제
+package practice04.prob05; //오버라이드문제
 
 public class Base {
 	public void service(String state){
