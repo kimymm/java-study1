@@ -1,4 +1,4 @@
-package prob4;
+package practice05.prob4;
 
 public class SoundTest {
 

@@ -1,4 +1,4 @@
-package prob6;
+package practice05.prob6;
 //그림판 구현
 import java.util.ArrayList;
 import java.util.List;

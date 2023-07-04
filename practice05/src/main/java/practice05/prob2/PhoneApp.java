@@ -1,4 +1,4 @@
-package prob2;
+package practice05.prob2;
 
 public class PhoneApp {
 

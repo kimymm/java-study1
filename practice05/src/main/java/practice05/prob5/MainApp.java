@@ -1,4 +1,4 @@
-package prob5;
+package practice05.prob5;
 
 public class MainApp {
 
@@ -22,9 +22,9 @@ public class MainApp {
 			stack.push("Hello");
 
 			System.out.println(stack.pop());
-			System.out.println(stack.pop());
+			System.out.println(stack.pop()); //여기서 오류! 왜냐 배열 초기화하고 하나밖에 없잖아.
 			
-		} catch ( MyStackException ex) {
+		} catch (MyStackException ex) {
 			System.out.println( ex );
 		}
 

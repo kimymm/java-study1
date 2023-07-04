@@ -1,10 +1,10 @@
 package practice05.prob4;
 
-public class Cat implements Soundable {
+public class Dog implements Soundable {
 
 	@Override
 	public String sound() {
-		return "야옹";
+		return "멍멍";
 	}
 
 }
